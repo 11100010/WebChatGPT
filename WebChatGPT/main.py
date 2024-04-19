@@ -14,7 +14,7 @@ class ChatGPT:
         model: str = "text-davinci-002-render-sha",
         conversation_index: int = 1,
         locale: str = "en-US",
-        user_agent: str = utils.request_headers["User-Agent"],
+        user_agent: str = "user_agent: str = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         timeout: tuple = 30,
         disable_history_and_training: bool = False,
         trace: bool = False,
